@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/your/project"
+      ],
+      "_description": "File system access for Claude. Replace /path/to/your/project with your actual project directory. Allows Claude to read, write, and manage files within the specified directory."
+    }
+  }
+}
